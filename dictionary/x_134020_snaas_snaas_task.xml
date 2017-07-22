@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="SNaaS Task" max_length="40" name="x_134020_snaas_snaas_task" type="collection">
+        <element label="New Date" max_length="40" name="u_glide_date_5" type="glide_date"/>
+        <element label="New Time" max_length="40" name="u_glide_time_1" type="glide_time"/>
+        <element label="New Reference" max_length="32" name="u_reference_3" reference="cmdb_ci_appl_dot_net" type="reference"/>
+    </element>
+</database>
